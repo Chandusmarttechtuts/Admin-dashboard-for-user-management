@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="search-container">
+  <label for="search">Search:</label>
+  <input type="text" id="search" placeholder="Search...">
+  <button id="searchBtn" class="search-icon">Search</button>
+</div>
+
+<table id="userTable">
+  <thead>
+    <tr>
+      <th><input type="checkbox" id="selectAll"></th>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Role</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+  <tbody>
+  </tbody>
+</table>
+
+<div class="pagination">
+  <!-- Pagination buttons will be dynamically populated here -->
+</div>
+
+<button id="deleteBtn" class="delete">Delete Selected</button>
+
+<script src="script.js"></script>
+</body>
+</html>
