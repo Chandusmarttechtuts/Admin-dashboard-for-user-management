@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .search-container {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  #search {
+    padding: 8px;
+  }
+  
+  #searchBtn {
+    padding: 8px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #userTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px; /* Increase padding for better readability */
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  #selectAll {
+    cursor: pointer;
+  }
+  
+  /* Add hover effect for table rows */
+  tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .delete {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Style for buttons inside table cells */
+  button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style for Save and Cancel buttons */
+  .saveBtn, .cancelBtn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  /* Style for Edit button */
+  .editBtn {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  /* Style for Delete button */
+  .deleteBtn {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
